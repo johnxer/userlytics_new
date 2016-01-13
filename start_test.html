@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<title>Userlytics - Mobile Help For Testers</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link href="css/styles_new.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-2">
+						<img src="img/logo_usl.png" alt="userlytics" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</header>
+		<section>
+			<article class="launch-info">
+				<div class="container">
+					
+					<div class="row">
+						<div class="col-xs-12 text-center">
+							<h2>
+							<i class="fa fa-rocket"></i>Launch the Recorder
+							</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-4 text-center">
+							<div class="panel">
+								<div class="panel-body">
+									<i class="fa fa-video-camera"></i>
+									<p>
+										You will now be asked to conduct some tasks while we record both your desktop screen as well as yourself through your webcam.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 text-center">
+							<div class="panel">
+								<div class="panel-body">
+									<i class="fa fa-comment"></i>
+									<p>
+										It is very important while you conduct the tasks that you continually speak what you are thinking outloud.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4 text-center">
+							<div class="panel">
+								<div class="panel-body">
+									<i class="fa fa-lightbulb-o"></i>
+									<p>
+										If you have any problems setting up your computer you can refer to the instructions below, or contact us <a href="/sitetester/?page=tester_faq&amp;t=r">here</a>.
+									</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row button-block">
+						<div class="col-md-6 col-md-offset-3 text-center col-sm-8 col-sm-offset-2 text-center">
+							<a id="launch_button" class="btn btn-success btn-lg btn-block" onclick="firstLaunch()" href="javascript:void(0);"><i class="fa fa-play-circle"></i><span>Start Userlytics Recorder</span></a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 text-left col-sm-8 col-sm-offset-2">
+							<div class="panel panel-info" >
+								<div class="panel-body">
+									
+									<ul>
+										<li>
+											<i class="fa fa-info"></i>
+											<p>
+												Need mobile phone/tablet help? Click <a  href="javascript:void(0)">here</a>
+											</p>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
+					</article>
+					
+					<!--
+					<article class="help-info">
+								<div class="container">
+											<div class="row">
+														<div class="col-xs-12 text-center">
+																	<h2><i class="fa fa-bug"></i>Having troubles? Read below...</h2>
+														</div>
+											</div>
+											<div class="row">
+														<div class="col-md-10 col-md-offset-1">
+																	<div class="panel panel-flash">
+																				<div class="panel-body">
+																							<i class="fa fa-exclamation-triangle"></i>You will need to install the latest version of Adobe Flash Player if you do not have it already installed, and adjust the settings as per below.
+																				</div>
+																	</div>
+														</div>
+											</div>
+											<div class="row">
+														<div class="col-md-10 col-md-offset-1">
+																	<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+																				<div class="panel panel-default">
+																							<div class="panel-heading" role="tab" id="headingOne">
+																										<h4 class="panel-title">
+																										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+																													<i class="fa fa-cube"></i>Adobe Flash Player Configuration
+																										</a>
+																										</h4>
+																							</div>
+																							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+																										<div class="panel-body">
+																													<div class="row">
+																																<div class="col-sm-5">
+																																			<img width="" height="" alt="" src="img/pc-flash-1.png" class="img-responsive">
+																																</div>
+																																<div class="col-sm-7">
+																																			<ol class="mac-flash-install-list">
+																																						<li><p>
+																																									Install or update the Flash Player to the latest version (<a href="http://get.adobe.com/flashplayer/">http://get.adobe.com/flashplayer/</a>)
+																																						</p></li>
+																																						<li><p>
+																																									Go to <strong>"Control Panels"</strong>
+																																						</p></li>
+																																						<li><p>
+																																									Search and click on <strong>"Flash Player (32 bit)"</strong> icon
+																																						</p></li>
+																																						<li><p>
+																																									Change to <strong>"Camera &amp; Mic"</strong> Tab
+																																						</p></li>
+																																						<li><p>
+																																									Click on <strong>"Camera &amp; Microphone Settings by site"</strong>
+																																						</p></li>
+																																						<li><p>
+																																									Change to "Allow" for <strong>"www.userlytics.com"</strong> website
+																																						</p></li>
+																																			</ol>
+																																			
+																																</div>
+																													</div>
+																										</div>
+																							</div>
+																				</div>
+																				<div class="panel panel-default">
+																							<div class="panel-heading" role="tab" id="headingTwo">
+																										<h4 class="panel-title">
+																										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+																													<i class="fa fa-cube"></i>Java installation, security & certificate issues
+																										</a>
+																										</h4>
+																							</div>
+																							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+																										<div class="panel-body">
+																													<div class="row">
+																																
+																																<ul class="col-md-3 nav nav-tabs" role="tablist">
+																																			<li role="presentation" class="active"><a href="#java-install" aria-controls="java-install" role="tab" data-toggle="tab">How to install Java?</a></li>
+																																			<li role="presentation"><a href="#sec-settings" aria-controls="sec-settings" role="tab" data-toggle="tab">Security settings</a></li>
+																																</ul>
+																																
+																																<div class="tab-content col-md-9">
+																																			<div role="tabpanel" class="tab-pane active" id="java-install">
+																																						<ol>
+																																									<li>
+																																												<p>Please follow this link: <a href="http://www.java.com/en/download/mac_download.jsp?locale=en" target="_blank">http://www.java.com/en/download/mac_download.jsp?locale=en</a></p>
+																																									</li>
+																																									<li>
+																																												<p>Download and install the latest Java version (<i>See the screenshot of the page below</i>).</p>
+																																									</li>
+																																						</ol>
+																																						<img src="img/java-dl-ff.jpg" class="img-responsive">
+																																			</div>
+																																			<div role="tabpanel" class="tab-pane" id="sec-settings">
+																																						<p>
+																																									When launching the Userlytics recorder, please make sure you are checking the box that says "<strong>Always trust content from this publisher</strong>" before clicking the "<strong>Run</strong>" button.
+																																						</p>
+																																						<img src="img/java-certificate.jpg" class="img-responsive">
+																																						<img src="img/javafix.jpg" class="img-responsive">
+																																			</div>
+																																</div>
+																													</div>
+																										</div>
+																							</div>
+																				</div>
+																				<div class="panel panel-default">
+																							<div class="panel-heading" role="tab" id="headingThree">
+																										<h4 class="panel-title">
+																										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+																													<i class="fa fa-cube"></i>Webcam & Microphone Access and Check
+																										</a>
+																										</h4>
+																							</div>
+																							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+																										<div class="panel-body">
+																													<div class="row">
+																																<div class="col-sm-5">
+																																			<img width="" height="" alt="" src="img/starthelp-mic-1.jpg" class="img-responsive">
+																																</div>
+																																<div class="col-sm-7">
+																																			<p>We will ask you for permission to access your webcam, with a screen similar to this.</p>
+																																</div>
+																													</div>
+																													<div class="row">
+																																<div class="col-sm-5">
+																																			<img width="" height="" alt="" src="img/starthelp-mic-2.jpg" class="img-responsive">
+																																</div>
+																																<div class="col-sm-7">
+																																			<p>Click on "Allow" (it may be necessary to click again to mark the selection, so that you will see a screen similar to this.</p>
+																																			<p>Click on "Close" (it may be necessary to click again to mark the selection), and we will then check to see that your microphone and webcam are working correctly and then we can start the test (you will first see the instructions for the test, and once you are ready and click on continue your webcam will start recording you as you speak your thoughts out-loud and follow the instructions)
+																																						
+																																			</p>
+																																</div>
+																													</div>
+																										</div>
+																							</div>
+																				</div>
+																				<div class="panel panel-default">
+																							<div class="panel-heading" role="tab" id="headingFour">
+																										<h4 class="panel-title">
+																										<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+																													<i class="fa fa-cube"></i>If you encounter any problems
+																										</a>
+																										</h4>
+																							</div>
+																							<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+																										<div class="panel-body">
+																													<div class="row">
+																																<div class="col-xs-12">
+																																			<p>Please make sure all programs that access the webcam (Skype, iChat, Photobooth, etc.) are closed.</p>
+																																			<p>Following is the way the process should work:</p>
+																																</div>
+																													</div>
+																													<div class="row">
+																																<div class="col-sm-4">
+																																			<img width="" height="" alt="" src="img/starthelp-0-small.jpg" class="img-responsive">
+																																</div>
+																																<div class="col-sm-8">
+																																			<p>You will be asked to open or save an applet. Please choose "<strong>Open</strong>" to start the applet.</p>
+																																			<p>Downloading will then begin.</p>
+																																</div>
+																													</div>
+																													<div class="row">
+																																<div class="col-sm-4">
+																																			<img width="" height="" alt="" src="img/starthelp-1-small.jpg" class="img-responsive">
+																																</div>
+																																<div class="col-sm-8">
+																																			<p>Depending on the settings of your browser, the applet may not start automatically. In this case, please double-click on the downloaded file and follow the instructions that will appear.</p>
+																																			<p>
+																																						<strong>It may take 7-15 seconds for the applet to initiate.</strong>
+																																			</p>
+																																			<p>
+																																						You should receive the following image. If you do not see it, it may be "<strong>hidden</strong>" behind some of your open windows. Please minimize or close any open windows until you see the notification.
+																																			</p>
+																																</div>
+																													</div>
+																													<div class="row">
+																																<div class="col-sm-4">
+																																			<img width="" height="" alt="" src="img/starthelp-2-small.jpg" class="img-responsive">
+																																</div>
+																																<div class="col-sm-8">
+																																			<p>Please make sure your microphone is connected and not muted.
+																																			</p>
+																																			<p>
+																																						Initially you will see a square with a Userlytics task bar at the top, and then the square will load and show an image like the one below.
+																																			</p>
+																																			<p>
+																																						Click on "<strong>Start the test</strong>" to start conducting the survey.
+																																			</p>
+																																</div>
+																													</div>
+																													<div class="row">
+																																<div class="col-sm-4">
+																																			<img width="" height="" alt="" src="img/starthelp-a-small.png" class="img-responsive">
+																																</div>
+																																<div class="col-sm-8">
+																																			<p>
+																																						Within your System Preferences, click on the <strong>"Java"</strong> icon, which will open a separate window, and in the <strong>"Security"</strong> section of that window, ensure the <strong>"Enable Java content in the browser"</strong> is checked.
+																																			</p>
+																																</div>
+																													</div>
+																													<div class="row">
+																																<div class="col-sm-4">
+																																			<img width="" height="" alt="" src="img/starthelp-b-small.png" class="img-responsive">
+																																</div>
+																																<div class="col-sm-8">
+																																			<p>
+																																						After you have checked your Java Preferences, to try again:
+																																			</p>
+																																			<p>
+																																						<strong>Please check that the Userlytics Recorder is not running</strong> (check the current applications that are open, and close the Userlytics Recorder window with any messages that may be displayed), <strong>delete any previous Userlytics Recorder files</strong> you may have from your desktop, <strong>restart your browser</strong> (we recommend Safari or Internet Explorer), and then click on <strong>Start Recorder</strong> in this page.
+																																			</p>
+																																</div>
+																													</div>
+																										</div>
+																							</div>
+																				</div>
+																				
+																	</div>
+																	<div class="text-center">
+																			<h3><i class="fa fa-hand-paper-o"></i>Still have some questions? <a href="/sitetester/?page=tester_faq&t=r">Check our FAQ</a>.</h3>
+																	</div>
+														</div>
+											</div>
+								</div>
+					</article>
+					-->
+					
+				</section>
+				<footer class="footer ">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xs-12 text-right">
+								<p class="text-muted">
+									&copy;2016 Userlytics Corporation
+								</p>
+							</div>
+						</div>
+					</div>
+				</footer>
+				<!-- JS SCRIPTS -->
+				<script>
+					$(document).ready(function(){
+						$("article").css('min-height', $(window).height()-154);
+					});
+					$(window).load(function() {
+					$(".launch-info h2").css("opacity","1").css("left", "0");
+					setTimeout(function() {
+					$(".help-info h2").css("opacity","1").css("left", "0");
+				}, 500);
+					});
+					
+				</script>
+			</body>
+		</html>
