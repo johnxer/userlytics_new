@@ -70,5 +70,6 @@
 			
 		</section>
 		<?php include 'includes/footer_no_menu.php'; ?>
+		<?php include 'includes/footer_common.php'; ?>
 	</body>
 </html>

@@ -65,7 +65,7 @@
 										<li>
 											<i class="fa fa-info"></i>
 											<p>
-												Need mobile phone/tablet help? Click <a  href="javascript:void(0)">here</a>.
+												Need mobile phone/tablet help? Click <a  href="mobile_help">here</a>.
 											</p>
 										</li>
 									</ul>
@@ -77,5 +77,6 @@
 			</article>
 		</section>
 		<?php include 'includes/footer_no_menu.php'; ?>
+		<?php include 'includes/footer_common.php'; ?>
 	</body>
 </html>
