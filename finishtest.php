@@ -48,7 +48,7 @@
 
 										
 										<img src="img/home-video1.jpg" class="all-ease-bubbles">
-										<a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-theVideo="http://www.youtube.com/embed/loFtozxZG0s?rel=0&amp;showinfo=0">
+										<a href="javascript:void(0)" data-toggle="modal" data-target="#videoModal" data-theVideo="https://www.youtube.com/embed/HlZ-TcrAPpA">
 											<i class="fa fa-play-circle"></i>
 
 

@@ -53,7 +53,8 @@
 					</div>
 					<div class="row button-block">
 						<div class="col-md-6 col-md-offset-3 text-center col-sm-8 col-sm-offset-2 text-center">
-							<a id="launch_button" class="btn  btn-lg btn-block main_btn" onclick="firstLaunch()" href="javascript:void(0);"><i class="fa fa-play-circle"></i><span>Start Userlytics Recorder</span></a>
+							<!--<a id="launch_button" class="btn  btn-lg btn-block main_btn" onclick="firstLaunch()" href="javascript:void(0);"><i class="fa fa-play-circle"></i><span>Start Userlytics Recorder</span></a>-->
+							<a id="launch_button" class="btn  btn-lg btn-block main_btn"  href="finishtest.php"><i class="fa fa-play-circle"></i><span>Start Userlytics Recorder</span></a>
 						</div>
 					</div>
 					<div class="row">
@@ -65,7 +66,7 @@
 										<li>
 											<i class="fa fa-info"></i>
 											<p>
-												Need mobile phone/tablet help? Click <a  href="mobile_help">here</a>.
+												Need mobile phone/tablet help? Click <a  href="mobile_help.php">here</a>.
 											</p>
 										</li>
 									</ul>
