@@ -97,7 +97,7 @@
 														</span>
 													</div>
 													<h4>
-													Once installed, start the Airserver app in your computer. This will enable the Airplay functionality on you iOS
+													Once installed, start the Airserver app in your computer. This will enable the Airplay functionality on your iOS device
 													<a data-toggle="popover" data-container="body" data-placement="top" data-trigger="focus" data-html="true" href="javascript:void(0)" data-content="
 														<p style='margin-bottom: 0;'>
 															Your iPhone and your computer need to be on the same WIFI connection for this to work.
@@ -122,7 +122,7 @@
 															Your iPhone will need to be 4s or above, your iPad 2 or above.
 														</p>
 														"
-													><i class="fa fa-info"></i></a> by swiping the screen from the bottom of the phone below the screen upwards (iOS7) or double click on the home button and swipe left to right (iOS 6 and below) and the Airplay icon will show:
+													><i class="fa fa-info"></i></a> device  by swiping the screen from the bottom of the device below the screen upwards (iOS7) or double click on the home button and swipe left to right (iOS 6 and below) and the Airplay icon will show:
 													</h4>
 													<ul>
 														<li>
@@ -165,7 +165,7 @@
 														</span>
 													</div>
 													<h4>
-													Download Mobizen from the <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rsupport.mvagent&hl=en">Google Play</a>
+													Download Mobizen from <a target="_blank" href="https://play.google.com/store/apps/details?id=com.rsupport.mvagent&hl=en">Google Play</a>
 													</h4>
 													<ul>
 														<li>Once the app is installed, you will need to register (Facebook, Google+, or email), please choose whichever option you prefer.</li>

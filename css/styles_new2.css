@@ -5914,6 +5914,60 @@ body {
   padding-top: 20px;
   position: relative;
   z-index: 1; }
+  .launch-info .panel-group {
+    margin-bottom: 0; }
+    .launch-info .panel-group .panel {
+      background: none;
+      color: #fff;
+      border: 1px solid #fff;
+      color: #fff; }
+      .launch-info .panel-group .panel .panel-heading a:hover {
+        background: rgba(255, 255, 255, 0.2); }
+      .launch-info .panel-group .panel .panel-body {
+        text-align: left; }
+        .launch-info .panel-group .panel .panel-body a {
+          color: #fff;
+          -webkit-transition: all 0.3s ease-in-out;
+          -moz-transition: all 0.3s ease-in-out;
+          -ms-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+          .launch-info .panel-group .panel .panel-body a:hover {
+            text-decoration: none; }
+        .launch-info .panel-group .panel .panel-body p {
+          color: #fff;
+          text-align: left;
+          font-size: 1.1em; }
+        .launch-info .panel-group .panel .panel-body h5 {
+          font-size: 16px; }
+        .launch-info .panel-group .panel .panel-body ol {
+          margin-bottom: 1em; }
+    .launch-info .panel-group .panel-heading {
+      padding: 0;
+      color: #0cb1e7;
+      background: none; }
+      .launch-info .panel-group .panel-heading:hover {
+        color: #05769A; }
+      .launch-info .panel-group .panel-heading a {
+        padding: 20px 15px;
+        display: block;
+        padding-left: 50px;
+        position: relative;
+        text-decoration: none;
+        color: #fff; }
+        .launch-info .panel-group .panel-heading a i {
+          position: absolute;
+          left: 15px;
+          top: 20px;
+          font-size: 20px; }
+        .launch-info .panel-group .panel-heading a:hover {
+          background: #fff; }
+        .launch-info .panel-group .panel-heading a:not(.collapsed) {
+          background: rgba(255, 255, 255, 0.2); }
+    .launch-info .panel-group .panel-body .row {
+      margin-bottom: 20px; }
+      .launch-info .panel-group .panel-body .row:last-child {
+        margin-bottom: 0; }
   .launch-info::before {
     background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1NiIgaGVpZ2h0PSIxMDAiPgo8cmVjdCB3aWR0aD0iNTYiIGhlaWdodD0iMTAwIiBmaWxsPSIjMGNiMWU3Ij48L3JlY3Q+CjxwYXRoIGQ9Ik0yOCA2NkwwIDUwTDAgMTZMMjggMEw1NiAxNkw1NiA1MEwyOCA2NkwyOCAxMDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIyIj48L3BhdGg+CjxwYXRoIGQ9Ik0yOCAwTDI4IDM0TDAgNTBMMCA4NEwyOCAxMDBMNTYgODRMNTYgNTBMMjggMzQiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+Cjwvc3ZnPg==");
     content: "";
@@ -5924,8 +5978,7 @@ body {
     right: 0;
     opacity: 0.1;
     background-position: 0px 0px;
-    background-repeat: repeat;
-    animation: animatedBackground 60s linear infinite; }
+    background-repeat: repeat; }
   .launch-info h2 {
     margin-bottom: 60px;
     color: #fff;
