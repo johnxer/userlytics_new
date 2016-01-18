@@ -80,7 +80,7 @@
 															</a>.
 														</li>
 														<li>
-															This will open a webpage where you can download the Airserver application using the icon “Download now”. You will be asked for an activation code, insert the one provided on the Airserver page.
+															This will open a webpage where you can download the Airserver application using the icon "Download now". You will be asked for an activation code, insert the one provided on the Airserver page.
 														</li>
 														<img src="img/airserver.png" class="img-responsive">
 													</ul>
@@ -98,13 +98,10 @@
 													</div>
 													<h4>
 													Once installed, start the Airserver app in your computer. This will enable the Airplay functionality on your iOS device
-													<a data-toggle="popover" data-container="body" data-placement="top" data-trigger="focus" data-html="true" href="javascript:void(0)" data-content="
-														<p style='margin-bottom: 0;'>
-															Your iPhone and your computer need to be on the same WIFI connection for this to work.
-														</p>
-														"
-													><i class="fa fa-info"></i></a>
 													</h4>
+													<p>
+															Your iPhone and your computer need to be on the same WIFI connection for this to work.
+													</p>
 												</div>
 											</div>
 										</li>
@@ -197,6 +194,10 @@
 															<img src="img/mobizen.png" class="img-responsive">
 														</li>
 														<li>
+															Your Android and your desktop have to be using the same WIFI service.
+														</li>
+
+														<li>
 															Enter your Mobizen username and password and press connect. You will then get a 2 step verification code.
 														</li>
 													</ul>
@@ -219,9 +220,7 @@
 															A few seconds later you will see your mobile screen projected onto your computer screen.
 														</li>
 														<li>
-															Keep this mobile screen image on top of all your windows and applications during the test <a data-toggle="popover" data-container="body" data-placement="top" data-trigger="focus" data-html="true" href="javascript:void(0)" data-content="
-																<p style='margin-bottom: 0;'> Your Android and your desktop have to be using the same WIFI service.</p>"
-															><i class="fa fa-info"></i></a>.
+															Keep this mobile screen image on top of all your windows and applications during the test.
 														</li>
 													</ul>
 												</div>
